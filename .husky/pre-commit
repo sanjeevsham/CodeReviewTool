@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+# Run the diff-only linting script
+node scripts/lint-diff.js
